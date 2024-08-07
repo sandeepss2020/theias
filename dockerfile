@@ -22,7 +22,7 @@ RUN apk add --no-cache \
 RUN apk add --no-cache py3-setuptools
 
 # Clone the Theia repository
-RUN git clone https://github.com/eclipse-theia/theia
+RUN git clone https://github.com/sandeepss2020/theias.git
 
 # Change directory to theia
 WORKDIR /workspace/theia
